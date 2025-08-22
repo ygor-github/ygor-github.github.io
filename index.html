@@ -1,99 +1,65 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Ygor Rodríguez</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio de Ygor Hernández</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class="bg-gray-100 text-gray-800">
+    <div class="container mx-auto p-8">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQFc0KCkqkTi0g/profile-displayphoto-shrink_400_400/B4DZc2Iau2GYAk-/0/1748959866212?e=1758758400&v=beta&t=B9DYrbPn5IvZYJPwkb1q-SQtDOveVSu5aJHjKxd3N-Y" alt="Foto de Ygor Hernández" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <h1 class="text-4xl font-bold">Ygor Hernández</h1>
+            <p class="text-xl text-gray-600">Aspirante a Científico de Datos | Desarrollador Frontend</p>
+        </header>
 
-<body>
-    <header class="bg-dark text-white py-3">
-        <div class="container">
-            <div id="branding" class="text-center">
-                <h1>Ygor Rodríguez</h1>
+        <!-- About Me -->
+        <section id="sobre-mi" class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-gray-300 pb-2">Sobre Mí</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="text-lg">
+                    Ygor Hernández es un profesional en transición hacia el campo de la Ciencia de Datos, que actualmente se encuentra fortaleciendo sus habilidades en análisis, visualización y modelado de datos. Con una sólida experiencia de cuatro años como Gerente General en Denlinea Company, C.A., y una licenciatura en Contaduría Pública de la Universidade de Oriente, posee una base robusta en contabilidad y administración. Su objetivo es aplicar estos conocimientos para extraer información valiosa y respaldar la toma de decisiones basada en datos, con la meta de convertirse en un Científico de Datos capaz de desarrollar soluciones innovadoras. A lo largo de este año, sus esfuerzos se han centrado en mejorar su dominio del inglés, profundizar en herramientas como Python y SQL, y expandir su red profesional.
+                </p>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <div class="container mt-5">
-        <section id="inicio" class="text-center">
-            <h2>Inicio</h2>
-            <img src="https://picsum.photos/800/400?random=1" class="img-fluid rounded" alt="Imagen de inicio">
-            <p class="mt-3">Bienvenido a mi portafolio. Aquí encontrarás información sobre mí y mis proyectos.</p>
         </section>
-        <section id="sobre-mi" class="bio mt-5">
-            <h2>Sobre mí</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="https://picsum.photos/400/400?random=2" class="img-fluid rounded-circle" alt="Foto de Ygor Rodríguez">
+
+        <!-- Training and Certifications -->
+        <section id="formacion" class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-gray-300 pb-2">Formación y Certificaciones</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Training 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-2">Formación en Ciencia de Datos (Programa ONE Tech Foundation G8)</h3>
+                    <p class="text-gray-700 mb-4">Este programa intensivo de Alura le ha proporcionado una base en ciencia de datos. A través de este, ha desarrollado habilidades en técnicas de modelado, como la regresión lineal.</p>
+                    <p class="font-bold">Tecnologías y habilidades:</p>
+                    <p>Python, SQL, bibliotecas de análisis de datos, modelado estadístico.</p>
                 </div>
-                <div class="col-md-8">
-                    <p>Hola, soy Ygor Rodríguez, y me estoy desarrollando en el campo de front-end. Tengo conocimientos
-                        elementales sobre HTML, CSS y JavaScript, además aprendo sobre Docker, Laravel, y el uso de IA para
-                        mejorar mis proyectos.</p>
-                    <p>Mis metas incluyen:</p>
-                    <ul>
-                        <li>Convertirme en un desarrollador front-end experto.</li>
-                        <li>Dominar frameworks modernos como React y Vue.js.</li>
-                        <li>Contribuir a proyectos de código abierto.</li>
-                        <li>Desarrollar aplicaciones web innovadoras y eficientes.</li>
-                    </ul>
-                    <p>Estoy en la búsqueda de oportunidades que me permitan seguir aprendiendo y creciendo en este campo. Me
-                        apasiona la tecnología y estoy comprometido con el desarrollo continuo de mis habilidades. Si tienes un
-                        proyecto interesante o una oportunidad de colaboración, no dudes en contactarme.</p>
+                <!-- Training 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-2">Formación para Principiantes en Programación (Formação Iniciante em Programação G8 - ONE)</h3>
+                    <p class="text-gray-700 mb-4">Esta formación de Alura le ha permitido adquirir conocimientos fundamentales en desarrollo web y diseño de interfaces.</p>
+                    <p class="font-bold">Tecnologías y habilidades:</p>
+                    <p>HTML, HTML5, Hojas de Estilos en Cascada (CSS), diseño web adaptable, diseño de la interfaz de usuario.</p>
+                </div>
+                <!-- Training 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-2">Formación en Desarrollo Personal (Formação Desenvolvimento Pessoal G8 - ONE)</h3>
+                    <p class="text-gray-700 mb-4">A través de este programa de Alura, ha fortalecido habilidades blandas cruciales para el entorno profesional, como la comunicación y el trabajo en equipo.</p>
+                    <p class="font-bold">Habilidades:</p>
+                    <p>Investigación, habilidades sociales, comunicación, trabajo en equipo, resolución de problemas, liderazgo de equipos.</p>
                 </div>
             </div>
         </section>
-        <section id="proyectos" class="mt-5">
-            <h2>Proyectos</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card mb-4">
-                        <img src="https://picsum.photos/800/400?random=3" class="card-img-top" alt="Imagen de proyectos">
-                        <div class="card-body">
-                            <h3 class="card-title">Proyecto 1</h3>
-                            <p class="card-text">Descripción breve del proyecto 1.</p>
-                            <a href="#" class="btn btn-primary">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card mb-4">
-                        <img src="https://picsum.photos/800/400?random=4" class="card-img-top" alt="Imagen de proyectos">
-                        <div class="card-body">
-                            <h3 class="card-title">Proyecto 2</h3>
-                            <p class="card-text">Descripción breve del proyecto 2.</p>
-                            <a href="#" class="btn btn-primary">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="contacto" class="mt-5">
-            <h2>Contacto</h2>
-            <p>Si deseas contactarme, puedes enviarme un correo a <a href="mailto:ygorhernandezbr@gmail.com">ygorhernandezbr@gmail.com</a>.</p>
+
+        <!-- Contact -->
+        <section id="contacto" class="text-center">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-gray-300 pb-2">Contacto</h2>
+            <p class="text-lg mb-4">Si deseas contactarme, puedes hacerlo a través de mi correo electrónico o mi perfil de LinkedIn.</p>
+            <a href="mailto:ygorhernandezbr@gmail.com" class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 transition-colors">Enviar Correo</a>
+            <a href="https://www.linkedin.com/in/ygor-hernandez-dev/" target="_blank" class="bg-gray-700 text-white px-6 py-3 rounded-full hover:bg-gray-800 transition-colors ml-4">LinkedIn</a>
         </section>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>

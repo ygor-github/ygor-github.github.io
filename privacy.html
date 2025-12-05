@@ -3,37 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-key="title">Política de Privacidad</title>
+    <title data-key="privacy_title">Política de Privacidad</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body class="bg-slate-900 text-gray-200 font-sans">
     <div class="container mx-auto p-4 sm:p-8">
         <header class="flex justify-between items-center mb-16">
-            <h1 class="text-5xl font-bold text-white" data-key="name">Política de Privacidad</h1>
-            <a href="index.html" class="bg-slate-700 hover:bg-slate-600 text-white font-bold py-2 px-4 rounded-full transition-colors duration-300">Volver</a>
+            <h1 class="text-5xl font-bold text-white" data-key="privacy_header">Política de Privacidad</h1>
+            <a href="index.html" class="bg-slate-700 hover:bg-slate-600 text-white font-bold py-2 px-4 rounded-full transition-colors duration-300" data-key="privacy_back_button">Volver</a>
         </header>
 
         <section id="privacy-policy" class="mb-16">
             <div class="bg-slate-800 p-8 rounded-xl shadow-2xl">
-                <h2 class="text-3xl font-bold mb-4 text-teal-400">1. Información que recopilamos</h2>
-                <p class="text-lg leading-relaxed mb-4">
-                    Recopilamos información personal que usted nos proporciona voluntariamente cuando se registra en el sitio web, expresa interés en obtener información sobre nosotros o nuestros productos y servicios, participa en actividades en el sitio web o se pone en contacto con nosotros.
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_last_updated"><strong>Última actualización:</strong> 04/12/2024</p>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_app_name"><strong>Nombre de la Aplicación:</strong> Portafolio Ygor Hernández</p>
+                <p class="text-lg leading-relaxed mb-6" data-key="privacy_controller"><strong>Responsable del Tratamiento:</strong> Ygor Hernández</p>
+
+                <h2 class="text-3xl font-bold mb-4 text-teal-400" data-key="privacy_intro_title">1. Introducción</h2>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_intro_text">
+                    Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos la información de los usuarios cuando utilizan nuestra aplicación, desarrollada para integrarse con los servicios de Meta (Facebook, Instagram y otros productos asociados). Nos comprometemos a proteger tu información personal y a cumplir con las normas de Meta, así como con las leyes aplicables de privacidad. Al utilizar la aplicación, aceptas las prácticas descritas en esta Política de Privacidad.
                 </p>
-                <h2 class="text-3xl font-bold mb-4 text-teal-400">2. Cómo utilizamos su información</h2>
-                <p class="text-lg leading-relaxed mb-4">
-                    Utilizamos la información personal recopilada a través de nuestro sitio web para una variedad de fines comerciales que se describen a continuación. Procesamos su información personal para estos fines en función de nuestros intereses comerciales legítimos, para celebrar o ejecutar un contrato con usted, con su consentimiento y/o para cumplir con nuestras obligaciones legales.
+
+                <h2 class="text-3xl font-bold mb-4 text-teal-400" data-key="privacy_info_title">2. Información que recopilamos</h2>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_info_text">
+                    Recopilamos los siguientes tipos de información para proporcionar y mejorar la funcionalidad de la aplicación:
                 </p>
-                <h2 class="text-3xl font-bold mb-4 text-teal-400">3. ¿Compartiremos su información?</h2>
-                <p class="text-lg leading-relaxed">
-                    Solo compartimos información con su consentimiento, para cumplir con las leyes, para brindarle servicios, para proteger sus derechos o para cumplir con las obligaciones comerciales.
+                <h3 class="text-2xl font-bold mb-3 text-teal-300" data-key="privacy_info_user_title">2.1. Información proporcionada por el usuario</h3>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_info_user_text">
+                    Cuando autorizas la app a través de Meta, podemos recibir información permitida por los permisos que aceptas, por ejemplo:
                 </p>
+                <ul class="list-disc list-inside mb-4 text-lg space-y-2">
+                    <li data-key="privacy_info_user_item1">Nombre y apellido</li>
+                    <li data-key="privacy_info_user_item2">Foto de perfil</li>
+                    <li data-key="privacy_info_user_item3">ID de usuario de Facebook o Instagram</li>
+                    <li data-key="privacy_info_user_item4">Correo electrónico (si lo autorizas)</li>
+                    <li data-key="privacy_info_user_item5">Datos de interacción con la app</li>
+                </ul>
+
+                <h3 class="text-2xl font-bold mb-3 text-teal-300" data-key="privacy_info_auto_title">2.2. Información recopilada automáticamente</h3>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_info_auto_text">
+                    La app puede recopilar información técnica, como:
+                </p>
+                <ul class="list-disc list-inside mb-4 text-lg space-y-2">
+                    <li data-key="privacy_info_auto_item1">Tipo de dispositivo</li>
+                    <li data-key="privacy_info_auto_item2">Sistema operativo</li>
+                    <li data-key="privacy_info_auto_item3">Zona horaria</li>
+                    <li data-key="privacy_info_auto_item4">Dirección IP</li>
+                    <li data-key="privacy_info_auto_item5">Información de uso general dentro de la aplicación</li>
+                </ul>
+
+                <h3 class="text-2xl font-bold mb-3 text-teal-300" data-key="privacy_info_api_title">2.3. Información proveniente de las APIs de Meta</h3>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_info_api_text">
+                    Solo accedemos a la información necesaria para el funcionamiento de la app y que está permitida por las políticas de Meta. No accedemos ni almacenamos información adicional que no esté explícitamente autorizada por el usuario.
+                </p>
+
+                <h2 class="text-3xl font-bold mb-4 text-teal-400" data-key="privacy_how_use_title">3. Cómo utilizamos la información</h2>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_how_use_text">
+                    Utilizamos la información recopilada para los siguientes fines:
+                </p>
+                <ul class="list-disc list-inside mb-4 text-lg space-y-2">
+                    <li data-key="privacy_how_use_item1">Proveer y operar las funcionalidades principales de la aplicación</li>
+                    <li data-key="privacy_how_use_item2">Personalizar la experiencia del usuario</li>
+                    <li data-key="privacy_how_use_item3">Analizar el rendimiento de la app</li>
+                    <li data-key="privacy_how_use_item4">Mejorar funciones, estabilidad y seguridad</li>
+                    <li data-key="privacy_how_use_item5">Enviar notificaciones relacionadas con el uso de la aplicación (si el usuario lo autoriza)</li>
+                </ul>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_how_use_never_sell">
+                    Nunca vendemos ni alquilamos información personal.
+                </p>
+
+                <h2 class="text-3xl font-bold mb-4 text-teal-400" data-key="privacy_sharing_title">4. Compartición de información</h2>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_sharing_text">
+                    Tu información no será compartida con terceros, salvo en los siguientes casos:
+                </p>
+                <ul class="list-disc list-inside mb-4 text-lg space-y-2">
+                    <li data-key="privacy_sharing_item1"><strong>Cumplimiento legal:</strong> Si una ley, orden judicial o autoridad lo requiere.</li>
+                    <li data-key="privacy_sharing_item2"><strong>Proveedores de servicios:</strong> Podemos trabajar con servicios externos para alojar, analizar o procesar datos, siempre bajo estrictos acuerdos de confidencialidad.</li>
+                    <li data-key="privacy_sharing_item3"><strong>Meta Platforms, Inc.:</strong> Solo cuando sea necesario para mantener la funcionalidad de los servicios autorizados mediante sus APIs.</li>
+                </ul>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_sharing_never_ads">
+                    Nunca compartimos datos con empresas de publicidad ni terceros no autorizados.
+                </p>
+
+                <h2 class="text-3xl font-bold mb-4 text-teal-400" data-key="privacy_storage_title">5. Almacenamiento y seguridad de los datos</h2>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_storage_text">
+                    Los datos pueden almacenarse de manera segura en servidores propios o de proveedores confiables. Aplicamos medidas administrativas, técnicas y físicas para proteger la información. La información se conserva únicamente durante el período necesario para cumplir con los fines descritos en esta política. Si revocas los permisos desde tu cuenta de Meta, dejaremos de recibir nueva información asociada a tu perfil.
+                </p>
+
+                <h2 class="text-3xl font-bold mb-4 text-teal-400" data-key="privacy_rights_title">6. Derechos del usuario</h2>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_rights_text">
+                    Dependiendo de tu ubicación, puedes ejercer derechos como:
+                </p>
+                <ul class="list-disc list-inside mb-4 text-lg space-y-2">
+                    <li data-key="privacy_rights_item1">Acceso a tus datos personales</li>
+                    <li data-key="privacy_rights_item2">Actualización o corrección de datos</li>
+                    <li data-key="privacy_rights_item3">Eliminación de información almacenada</li>
+                    <li data-key="privacy_rights_item4">Revocación de permisos otorgados a la aplicación</li>
+                </ul>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_rights_revoke">
+                    Puedes revocar permisos directamente desde tu Configuración de Facebook/Instagram > Apps y sitios web activos.
+                </p>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_rights_contact">
+                    También puedes contactarnos para solicitar eliminación de datos: <a href="mailto:ygorhernandezbr@gmail.com" class="text-teal-400 hover:underline">ygorhernandezbr@gmail.com</a>
+                </p>
+
+                <h2 class="text-3xl font-bold mb-4 text-teal-400" data-key="privacy_minors_title">7. Privacidad de menores</h2>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_minors_text">
+                    La aplicación no está diseñada para menores de 13 años. No recopilamos voluntariamente información de niños. Si detectamos datos de menores, serán eliminados inmediatamente.
+                </p>
+
+                <h2 class="text-3xl font-bold mb-4 text-teal-400" data-key="privacy_changes_title">8. Cambios en esta Política de Privacidad</h2>
+                <p class="text-lg leading-relaxed mb-4" data-key="privacy_changes_text">
+                    Nos reservamos el derecho de modificar esta Política de Privacidad. Cuando hagamos cambios, actualizaremos la fecha de “Última actualización”. El uso continuado de la app después de cualquier cambio constituye aceptación de la nueva política.
+                </p>
+
+                <h2 class="text-3xl font-bold mb-4 text-teal-400" data-key="privacy_contact_title">9. Contacto</h2>
+                <p class="text-lg leading-relaxed" data-key="privacy_contact_text">
+                    Si tienes preguntas o deseas ejercer tus derechos de privacidad, puedes contactarnos por:
+                </p>
+                <ul class="list-disc list-inside mt-2 text-lg space-y-2">
+                    <li data-key="privacy_contact_item1"><strong>Correo electrónico:</strong> <a href="mailto:ygorhernandezbr@gmail.com" class="text-teal-400 hover:underline">ygorhernandezbr@gmail.com</a></li>
+                    <li data-key="privacy_contact_item2"><strong>Sitio web:</strong> <a href="index.html" class="text-teal-400 hover:underline">Portafolio Ygor Hernández</a></li>
+                    <li data-key="privacy_contact_item3"><strong>Responsable:</strong> Ygor Hernández</li>
+                </ul>
             </div>
         </section>
 
         <footer class="text-center text-gray-500 mt-12">
-            <p>&copy; 2024 Ygor Hernández. Todos los derechos reservados.</p>
+            <p data-key="footer_text">&copy; 2024 Ygor Hernández. Todos los derechos reservados.</p>
         </footer>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
